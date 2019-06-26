@@ -1,13 +1,14 @@
-package com.ajun.springcloud;
+package com.ajun.eurekaclient01;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringcloudApplication {
+@EnableEurekaClient
+public class EurekaClient01Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringcloudApplication.class, args);
+        SpringApplication.run(EurekaClient01Application.class, args);
     }
 
 }
